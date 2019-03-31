@@ -1,0 +1,57 @@
+{
+  "name": "menneu-api-usage-on-esm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Usage example of Ménneu API on ES modules.",
+  "keywords": [
+    "Ménneu",
+    "API",
+    "usage",
+    "example",
+    "markdown",
+    "md",
+    "html",
+    "pdf",
+    "barcode",
+    "QR",
+    "chart",
+    "UML",
+    "lisp",
+    "lsx",
+    "react"
+  ],
+  "main": "index.mjs",
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "clean": "rm -rf ./debug ./bin ./dist ./.cache",
+    "bundler:wp": "webpack-cli --mode=development --config webpack.config.js",
+    "start:wp": "node bin/index.js",
+    "bundler:pa": "parcel build index.mjs --target node --bundle-node-modules",
+    "start:pa": "node dist/index.js",
+    "start": "node --experimental-modules --no-warnings index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "menneu": "0.0.53"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@open-wc/webpack-import-meta-loader": "0.2.0",
+    "babel-loader": "^8.0.5",
+    "source-map-loader": "^0.2.4",
+    "raw-loader": "1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "author": "shellyln",
+  "homepage": "https://shellyln.github.io/",
+  "bugs": {
+    "url": "https://github.com/shellyln/menneu/issues"
+  },
+  "license": "ISC"
+}
