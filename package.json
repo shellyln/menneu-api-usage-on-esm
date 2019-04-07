@@ -34,16 +34,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "menneu": "^0.0.56"
+    "menneu": "^0.0.57"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "@open-wc/webpack-import-meta-loader": "0.2.0",
     "babel-loader": "^8.0.5",
     "source-map-loader": "^0.2.4",
-    "raw-loader": "1.0.0",
+    "raw-loader": "2.0.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "parcel-bundler": "^1.12.3"
