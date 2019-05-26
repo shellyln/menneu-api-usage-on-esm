@@ -31,21 +31,22 @@
     "bundler:pa": "parcel build index.mjs --target node --bundle-node-modules",
     "start:pa": "node dist/index.js",
     "start": "node --experimental-modules --no-warnings index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start12": "node --experimental-modules --es-module-specifier-resolution=node --no-warnings index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "menneu": "^0.0.57"
+    "menneu": "^0.0.66"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@open-wc/webpack-import-meta-loader": "0.2.0",
-    "babel-loader": "^8.0.5",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@open-wc/webpack-import-meta-loader": "0.2.1",
+    "babel-loader": "^8.0.6",
     "source-map-loader": "^0.2.4",
     "raw-loader": "2.0.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
     "parcel-bundler": "^1.12.3"
   },
   "author": "shellyln",

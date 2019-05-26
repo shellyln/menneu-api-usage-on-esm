@@ -14,7 +14,9 @@
 ## NPM Scripts
 
 * start
-  * Run without the bundlers; pure Node ES modules environment.
+  * Run without the bundlers; pure Node ES modules environment. (Node < `12.0.0`)
+* start12
+  * Run without the bundlers; pure Node ES modules environment. (Node >= `12.0.0`)
 
 ---
 
