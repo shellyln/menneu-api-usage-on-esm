@@ -26,6 +26,7 @@
   },
   "scripts": {
     "clean": "rm -rf ./debug ./bin ./dist ./.cache",
+    "lint": "eslint index.mjs",
     "bundler:wp": "webpack-cli --mode=development --config webpack.config.js",
     "start:wp": "node bin/index.js",
     "bundler:pa": "parcel build index.mjs --target node --bundle-node-modules",
