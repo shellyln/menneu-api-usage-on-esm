@@ -15,5 +15,5 @@ before_script:
   - npm install -g babel-eslint
   - npm run clean
   - npm run lint
-  - npm run build
+  - npm run bundler:wp
   - npm test

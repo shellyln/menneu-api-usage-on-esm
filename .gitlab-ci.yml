@@ -19,8 +19,7 @@ test:node:12:
     - node -v
     - npm -v
     - npm run clean
-    - npm run build
-    - npm run build:wp
+    - npm run bundler:wp
     - npm test
 
 test:node:11:
@@ -29,8 +28,7 @@ test:node:11:
     - node -v
     - npm -v
     - npm run clean
-    - npm run build
-    - npm run build:wp
+    - npm run bundler:wp
     - npm test
 
 # LTS
@@ -40,6 +38,5 @@ test:node:10:
     - node -v
     - npm -v
     - npm run clean
-    - npm run build
-    - npm run build:wp
+    - npm run bundler:wp
     - npm test
