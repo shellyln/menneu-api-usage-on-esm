@@ -16,7 +16,9 @@
 * start
   * Run without the bundlers; pure Node ES modules environment. (Node < `12.0.0`)
 * start12
-  * Run without the bundlers; pure Node ES modules environment. (Node >= `12.0.0`)
+  * Run without the bundlers; pure Node ES modules environment. (Node = `12.0.0`)
+    * Node's `.mjs` and `.js` lookup order behavior has changed, so it doesn't work on Node = `13.0.0`.  
+      Prease use webpack (`npm run bundler:wp` and `npm run start:wp`).
 
 ---
 
