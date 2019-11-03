@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 
 import './extension';
 import * as menneu from 'menneu/modules';

@@ -1,8 +1,6 @@
 image: node:12
 
 before_script:
-  - npm install -g eslint
-  - npm install -g babel-eslint
   - npm ci
 
 #cache:
